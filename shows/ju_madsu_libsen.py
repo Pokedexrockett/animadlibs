@@ -1,5 +1,5 @@
 def madlib():
-    fighter_name = input("Fighter Name: ")
+    curse_user = input("Curse User: ")
     verb = input("Verb: ")
     adj1 = input("Adjetive: ")
     adj2 = input("Adjetive: ")
@@ -8,3 +8,7 @@ def madlib():
     noun1 = input("Adjetive: ")
     noun2 = input("Adjetive: ")
     noun3 = input("Adjetive: ")
+
+    madlib = f" "
+
+    print(madlib)
