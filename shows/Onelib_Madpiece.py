@@ -10,7 +10,7 @@ def madlib():
     noun5 = input("Noun: ")
     adj1 = input("Adjetive: ")
     adj2 = input("Adjetive: ")
-    pronoun = input("Pronoun: ")
+    pronoun = input("Pronoun: ")\
 
     madlib = f"My name is {protag_name}. And I’m the {noun1} who will become {noun2} Of The Pirates! With the straw {noun3} {verb1} to me by the {adj1} pirate Shanks, \
     I’m going to {verb2} a {adj2} crew and head out to the {noun4} line in search of the One Piece. \
