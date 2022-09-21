@@ -1,16 +1,17 @@
 def madlib():
-    hero = input("Hero: ")
-    verb = input("Verb: ")
-    adj1 = input("Adjetive: ")
-    adj2 = input("Adjetive: ")
-    adj3 = input("Adjetive: ")
-    adj4 = input("Adjetive: ")
-    noun1 = input("Adjetive: ")
-    noun2 = input("Adjetive: ")
+    protag_name = input("Name: ")
+    verb1 = input("Verb: ")
+    verb2 = input("Verb: ")
+    noun1 = input("Noun: ")
+    noun2 = input("Noun: ")
     noun3 = input("Adjetive: ")
+    noun4 = input("Adjetive: ")
+    adj1 = input("Adjetive: ")
+    adj3 = input("Adjetive: ")
+    pronoun = input("Pronown: ")
 
-    madlib = f"My name is Izuku Midoriya. For as long as I can remember, I have wanted to be a hero like All Might. Unfortunately, I was born quirkless so that dream seemed impossible. \
-    But one day I met the man himself, All Might, who passed to me with his quirk, One For All. Together with his guidance and the amazing education at UA Hero Academy. \
-    I know I can be a great hero and truly live up to the power given to me. I won’t you down."\
+    madlib = f"My name is {protag_name}. For as long as I can remember, I have wanted to be a {noun1} like All {verb2}. Unfortunately, I was born {adj1}less so that dream seemed impossible. \
+    But one day I met the {noun2} himself, All {verb2}, who passed to me with his {adj1}, {pronoun} For All. Together with his {noun3} and the amazing education at UA {noun1} Academy. \
+    I know I can be a great {noun1} and truly live up to the {noun4} given to me. I won’t you down."\
 
     print(madlib)
