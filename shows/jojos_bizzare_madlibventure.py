@@ -1,16 +1,17 @@
 def madlib():
-    cstand_user = input("Stand User: ")
-    verb = input("Verb: ")
+    protag_name = input("Name: ")
+    verb1 = input("Verb: ")
+    verb2 = input("Verb: ")
+    noun1 = input("Noun: ")
+    noun2 = input("Noun: ")
+    noun3 = input("Noun: ")
+    noun4 = input("Noun: ")
     adj1 = input("Adjetive: ")
     adj2 = input("Adjetive: ")
-    adj3 = input("Adjetive: ")
-    adj4 = input("Adjetive: ")
-    noun1 = input("Adjetive: ")
-    noun2 = input("Adjetive: ")
-    noun3 = input("Adjetive: ")
+    pronoun = input("Pronoun: ")
 
-    madlib = f"My name is Jotaro Kujo. Ever since the day Dio came into my family's lives, we have known nothing but battle and heartache. \
-    He has sent many enemy stand users after us, but with the help of Kakyoin, Avdol, Polnereff, Iggy, and my grandfather Joseph we will defeat him and his stand The World. \
-    It is nothing compared to the power of my Star Platnum. Together we venture to Egypt from Japan and beat anyone or thing in our way. We will save my mother."\
+    madlib = f"My name is {protag_name}. Ever since the day {pronoun} came into my family's lives, we have known nothing but {noun1} and {noun2}. \
+    He has sent many {adj1} stand users after us, but with the {verb1} of Kakyoin, Avdol, Polnereff, Iggy, and my grandfather Joseph we will {verb2} him and his stand The {noun3}. \
+    It is nothing compared to the power of my {noun4} Platnum. Together we {adj2} to Egypt from Japan and beat anyone or thing in our way. We will save my mother."\
 
     print(madlib)
